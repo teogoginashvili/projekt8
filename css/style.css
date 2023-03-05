@@ -1,0 +1,39 @@
+body{
+  background-image: url(../img/sky.jpeg)
+}
+.imgpeter{
+  height: 80px;
+  animation: peterfly 6s infinite;
+}
+@keyframes peterfly{
+ 0%{transform: translate(0px, 300px)}
+ 50%{transform: translate(400px, 200px)}
+100%{transform: translate(1000px, 30px)}
+}
+.imgwendy{
+  height: 100px;
+  animation: wendyfly 6s infinite;
+}
+@keyframes wendyfly{
+  0%{transform: translate(0px, 300px) rotate(0deg)}
+  50%{transform: translate(400px, 200px)rotate(180deg)}
+ 100%{transform: translate(1000px, 30px)rotate(360deg)}
+ }
+ .imgtinkerbell{
+  height: 200px;
+  animation: tinkerbellfly 5s infinite;
+ }
+ @keyframes tinkerbellfly{
+  0%{transform: translate(100px, 300px)}
+  50%{transform: translate(100px, 200px)}
+ 100%{transform: translate(100px, 100px)}
+ }
+ .imgmoon{
+  height: 200px;
+  animation: moonzoom 8s infinite;
+ }
+ @keyframes moonzoom{
+  0%{transform: translate(900px, 0px) scale(1,1)}
+  50%{transform: translate(900px, 0px) scale(1.5, 1.5) }
+ 100%{transform: translate(900px, 0px)scale(1,1) }
+ }
